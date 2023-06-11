@@ -1,0 +1,51 @@
+{
+  "name": "login-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cra-template": "1.2.0",
+    "define-lazy-prop": "^3.0.0",
+    "is-module": "^1.0.0",
+    "is-root": "^3.0.0",
+    "kleur": "^4.1.5",
+    "leven": "^4.0.0",
+    "path-type": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-masonry-css": "^1.0.16",
+    "react-parallax-tilt": "^1.7.145",
+    "react-router-dom": "^6.12.1",
+    "react-scripts": "5.0.1",
+    "shebang-regex": "^4.0.0",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
